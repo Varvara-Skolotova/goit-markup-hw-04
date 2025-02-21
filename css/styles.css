@@ -153,6 +153,20 @@ button {
 .business {
   background-color: #2e2f42;
   padding: 188px 0;
+
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .business-titel {
   margin: 0 auto 48px auto;
@@ -186,6 +200,19 @@ button {
   background-color: #404bbf;
 }
 /* Advantages */
+.icon-item {
+  max-width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .advantages {
   padding: 120px 0;
@@ -277,6 +304,34 @@ button {
 
 .container-team {
   padding: 32px 0;
+}
+
+.media-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+.media-item {
+  margin-bottom: 32px;
+}
+.media {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.media-icon {
+  fill: #f4f4fd;
+}
+.media:hover,
+.media:focus {
+  background-color: #404bbf;
 }
 
 /* Portfolio */
