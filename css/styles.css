@@ -318,6 +318,7 @@ button {
 }
 .media-item {
   margin-bottom: 32px;
+  gap: 24px;
 }
 .media {
   background-color: #4d5ae5;
@@ -426,7 +427,7 @@ button {
 .media-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  margin-left: 120px;
 }
 .media-list {
   display: flex;
