@@ -415,7 +415,7 @@ button {
   color: #f4f4fd;
 }
 
-.media-footer {
+.media-footer-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -423,28 +423,34 @@ button {
   color: #fff;
   margin-bottom: 16px;
 }
-.media-footer-list {
+.media-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.media-list {
   display: flex;
   gap: 16px;
 }
-.media-footer-item {
+.media-item {
   width: 40px;
   height: 40px;
 }
-.media-icon {
-}
-.footer-icon {
-}
-.media-footer {
-  display: flex;
+
+.media-footer-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
-.media-footer:hover,
-.media-footer:focus {
+
+.media-footer-link:hover,
+.media-footer-link:focus {
   background-color: #31d0aa;
+}
+.media-icon {
+  fill: #f4f4fd;
 }
