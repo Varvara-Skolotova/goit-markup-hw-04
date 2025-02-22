@@ -444,6 +444,9 @@ button {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+.logo-footer-first {
+  margin-right: 120px;
+}
 
 .media-footer-text {
   font-weight: 500;
@@ -458,23 +461,23 @@ button {
   align-items: baseline;
   margin-left: 120px;
 }
-.media-list {
+.media-list-footer {
   display: flex;
   gap: 16px;
 }
-.media-item {
+.media-footer-item {
   width: 40px;
   height: 40px;
 }
 
 .media-footer-link {
+  display: flex;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .media-footer-link:hover,
