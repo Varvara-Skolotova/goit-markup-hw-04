@@ -431,11 +431,6 @@ button {
   max-width: 264px;
 }
 
-.container-footer {
-  display: flex;
-  align-items: baseline;
-}
-
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
@@ -451,6 +446,8 @@ button {
 }
 .logo-footer-first {
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .media-footer-text {
