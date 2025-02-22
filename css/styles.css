@@ -446,8 +446,6 @@ button {
 }
 .logo-footer-first {
   margin-right: 120px;
-  display: flex;
-  align-items: baseline;
 }
 
 .media-footer-text {
@@ -458,10 +456,9 @@ button {
   color: #fff;
   margin-bottom: 16px;
 }
-.media-footer {
+.container-footer {
   display: flex;
   align-items: baseline;
-  margin-left: 120px;
 }
 .media-list-footer {
   display: flex;
